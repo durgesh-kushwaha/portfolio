@@ -350,6 +350,34 @@ img {
   margin-left: auto;
 }
 
+/* New Contact Details Section */
+.contact-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+.contact-details p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
