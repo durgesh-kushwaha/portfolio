@@ -21,7 +21,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-<<<<<<< HEAD
 /*==================== Typing Effect ====================*/
 var typed = new Typed(".auto-type", {
     strings: ["Web Developer", "Programmer", "Designer"],
@@ -30,8 +29,6 @@ var typed = new Typed(".auto-type", {
     loop: true
 });
 
-=======
->>>>>>> 329467f (fix: add mongoose dependency)
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
