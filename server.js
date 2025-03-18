@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 // Use Render-assigned port OR fallback to 3000 (for local testing)
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const MONGO_URI = process.env.MONGO_URI;
 
 // Middleware
