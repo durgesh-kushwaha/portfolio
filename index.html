@@ -185,20 +185,19 @@
          </section>
  
          <!--===== CONTACT =====-->
-         <section class="contact section" id="contact">
-             <h2 class="section-title">Contact</h2>
- 
-             <div class="contact__container bd-grid">
-                 <form action="" class="contact__form">
-                     <input type="text" placeholder="Name" class="contact__input">
-                     <input type="mail" placeholder="Email" class="contact__input">
-                     <textarea name="" placeholder="Type messege here..." cols="0" rows="10"
-                         class="contact__input"></textarea>
-                     <input type="button" value="Send" class="contact__button button">
-                 </form>
-             </div>
-         </section>
-     </main>
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <form id="contactForm" class="contact__form">
+            <input type="text" id="name" placeholder="Name" class="contact__input" required>
+            <input type="email" id="email" placeholder="Email" class="contact__input" required>
+            <textarea id="message" placeholder="Type message here..." cols="0" rows="10" class="contact__input" required></textarea>
+            <input type="submit" value="Send" class="contact__button button">
+        </form>
+        <p id="responseMessage" style="color: green; margin-top: 10px;"></p>
+    </div>
+</section>
  
      <!--===== FOOTER =====-->
      <footer class="footer">
