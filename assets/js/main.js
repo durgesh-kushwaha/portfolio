@@ -22,7 +22,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== Typing Effect ====================*/
 var typed = new Typed(".auto-type", {
-    strings: ["Web Developer", "Programmer", "Designer"],
+    strings: ["Web Developer", "Programmer","Tech Enthusiast", "UI/UX Designer"],
     typeSpeed: 100,
     backSpeed: 90,
     loop: true
