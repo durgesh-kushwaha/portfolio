@@ -173,6 +173,7 @@ img {
   background-color: var(--first-color);
 }
 
+<<<<<<< HEAD
 /*Auto Type color*/
 .auto-type{
   color: green;
@@ -181,6 +182,8 @@ img {
   color: green;
 }
 
+=======
+>>>>>>> 329467f (fix: add mongoose dependency)
 /*=== Show menu ===*/
 .show {
   right: 0;
