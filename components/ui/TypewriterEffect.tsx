@@ -1,17 +1,23 @@
 "use client";
-import { Typewriter } from 'react-simple-typewriter';
+import { Typewriter } from "react-simple-typewriter";
 
 const TypewriterEffect = () => {
   return (
     <span className="typewriter-text">
       <Typewriter
-        words={['Full Stack Developer', 'Web Developer', 'AI Enthusiast']}
+        words={[
+          "Data Analytics Intern",
+          "AI & DS Student",
+          "Web Developer",
+          "SEO Specialist",
+          "Problem Solver",
+        ]}
         loop={true}
         cursor
-        cursorStyle='_'
+        cursorStyle="_"
         typeSpeed={70}
         deleteSpeed={50}
-        delaySpeed={1000}
+        delaySpeed={2000}
       />
     </span>
   );
